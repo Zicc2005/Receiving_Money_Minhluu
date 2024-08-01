@@ -64,7 +64,7 @@
               to { transform: scale(1); opacity: 1; }
           }
           .qr-code {
-              width: 150px; /* Kích thước QR code */
+              width: auto; /* Kích thước QR code */
               height: auto ;
               margin: 10px auto;
               animation: float 5s infinite; /* Hiệu ứng nổi */
@@ -101,12 +101,12 @@
   <body>
       
       <div class="money">
-          <img src="https://phongvu.vn/cong-nghe/wp-content/uploads/2020/05/Icon-thuong-thuong-phong-vu-9.jpg" alt="Money" style="width: 50px; position: absolute; left: 5%; animation: move 5s infinite;">
-          <img src="https://phongvu.vn/cong-nghe/wp-content/uploads/2020/05/Icon-thuong-thuong-phong-vu-9.jpg" alt="Money" style="width: 50px; position: absolute; left: 20%; animation: move 5s infinite;">
-          <img src="https://phongvu.vn/cong-nghe/wp-content/uploads/2020/05/Icon-thuong-thuong-phong-vu-9.jpg" alt="Money" style="width: 50px; position: absolute; left: 35%; animation: move 5s infinite;">
-          <img src="https://phongvu.vn/cong-nghe/wp-content/uploads/2020/05/Icon-thuong-thuong-phong-vu-9.jpg" alt="Money" style="width: 50px; position: absolute; left: 50%; animation: move 5s infinite;">
-          <img src="https://phongvu.vn/cong-nghe/wp-content/uploads/2020/05/Icon-thuong-thuong-phong-vu-9.jpg" alt="Money" style="width: 50px; position: absolute; left: 65%; animation: move 5s infinite;">
-          <img src="https://phongvu.vn/cong-nghe/wp-content/uploads/2020/05/Icon-thuong-thuong-phong-vu-9.jpg" alt="Money" style="width: 50px; position: absolute; left: 80%; animation: move 5s infinite;">
+          <img src="https://phongvu.vn/cong-nghe/wp-content/uploads/2020/05/Icon-thuong-thuong-phong-vu-9.jpg" alt="Money" style="width: 50px; position: absolute; left: 58%; animation: move 2s infinite;">
+          <img src="https://phongvu.vn/cong-nghe/wp-content/uploads/2020/05/Icon-thuong-thuong-phong-vu-9.jpg" alt="Money" style="width: 50px; position: absolute; left: 33%; animation: move 5s infinite;">
+          <img src="https://phongvu.vn/cong-nghe/wp-content/uploads/2020/05/Icon-thuong-thuong-phong-vu-9.jpg" alt="Money" style="width: 50px; position: absolute; left: 35%; animation: move 6s infinite;">
+          <img src="https://phongvu.vn/cong-nghe/wp-content/uploads/2020/05/Icon-thuong-thuong-phong-vu-9.jpg" alt="Money" style="width: 50px; position: absolute; left: 90%; animation: move 8s infinite;">
+          <img src="https://phongvu.vn/cong-nghe/wp-content/uploads/2020/05/Icon-thuong-thuong-phong-vu-9.jpg" alt="Money" style="width: 50px; position: absolute; left: 65%; animation: move 7s infinite;">
+          <img src="https://phongvu.vn/cong-nghe/wp-content/uploads/2020/05/Icon-thuong-thuong-phong-vu-9.jpg" alt="Money" style="width: 50px; position: absolute; left: 80%; animation: move 8s infinite;">
       </div>
       <div class="container">
           <img src="https://scontent.fhan14-1.fna.fbcdn.net/v/t39.30808-6/453183725_1044125787101328_8006280582240292975_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=zio5NO2G4zsQ7kNvgHkDiak&_nc_ht=scontent.fhan14-1.fna&oh=00_AYD3k7rGxo4d-nauYjKIhgfCQuBeMWUvxDEKqSu2qX1tHw&oe=66B0EE43" alt="Profile Picture" class="profile-pic">
@@ -122,7 +122,7 @@
               </p>
               <p>Số Tài Khoản: 0562855347 </p>
               <p>Chủ Tài Khoản: LUU NGUYEN NHAT MINH </p>
-              <img src="(https://scontent.fhan19-1.fna.fbcdn.net/v/t1.15752-9/452835094_1018969663225315_9199216074795106771_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=9f807c&_nc_ohc=K4L3AvNnm2EQ7kNvgG3uOZK&_nc_ht=scontent.fhan19-1.fna&oh=03_Q7cD1QFfPWH2rWuXa2lTbYJeFJ4NbKqqI-H2w-99R5yTcQLKhg&oe=66D2CC6A)" alt="QR Code MBBank " class="qr-code">
+              <img src="https://scontent.fhan19-1.fna.fbcdn.net/v/t1.15752-9/452835094_1018969663225315_9199216074795106771_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=9f807c&_nc_ohc=K4L3AvNnm2EQ7kNvgG3uOZK&_nc_ht=scontent.fhan19-1.fna&oh=03_Q7cD1QFfPWH2rWuXa2lTbYJeFJ4NbKqqI-H2w-99R5yTcQLKhg&oe=66D2CC6A" alt="QR Code MBBank " class="qr-code">
               <p>
                   <img src="https://upload.wikimedia.org/wikipedia/vi/f/fe/MoMo_Logo.png" alt="Momo" class="bank-icon">Momo Payment
               </p>
