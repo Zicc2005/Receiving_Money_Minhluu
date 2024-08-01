@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+  <!DOCTYPE html>
   <html lang="vi">
   <head>
       <meta charset="UTF-8">
@@ -105,8 +105,8 @@
           Trình duyệt của bạn không hỗ trợ audio.
       </audio>
       <div class="money">
-          <img src="YOUR_MONEY_IMAGE_URL" alt="Money" style="width: 50px; position: absolute; left: 10%; animation: move 5s infinite;">
-          <img src="YOUR_MONEY_IMAGE_URL" alt="Money" style="width: 50px; position: absolute; right: 10%; animation: move 5s infinite;">
+          <img src="https://phongvu.vn/cong-nghe/wp-content/uploads/2020/05/Icon-thuong-thuong-phong-vu-9.jpg" alt="Money" style="width: 50px; position: absolute; left: 10%; animation: move 5s infinite;">
+          <img src="https://phongvu.vn/cong-nghe/wp-content/uploads/2020/05/Icon-thuong-thuong-phong-vu-9.jpg" alt="Money" style="width: 50px; position: absolute; right: 10%; animation: move 5s infinite;">
       </div>
       <div class="container">
           <img src="https://scontent.fhan14-1.fna.fbcdn.net/v/t39.30808-6/453183725_1044125787101328_8006280582240292975_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=zio5NO2G4zsQ7kNvgHkDiak&_nc_ht=scontent.fhan14-1.fna&oh=00_AYD3k7rGxo4d-nauYjKIhgfCQuBeMWUvxDEKqSu2qX1tHw&oe=66B0EE43" alt="Profile Picture" class="profile-pic">
@@ -118,13 +118,13 @@
           <div class="payment-info">
               <h3>Thông Tin Thanh Toán</h3>
               <p>
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/MBBank_logo.png" alt="MBBank" class="bank-icon">MBBANK
+                  <img src="https://play-lh.googleusercontent.com/M9OvPTmGRRtq40m0WtVRC7v5Rc4bNxj_IliowQSOm-oi2bLmnxsQcgqO-6ajUIQ2f-U" alt="MBBank" class="bank-icon">MBBANK
               </p>
               <p>Số Tài Khoản: 0562855347 </p>
               <p>Chủ Tài Khoản: LUU NGUYEN NHAT MINH </p>
-              <img src="https://scontent.fhan14-3.fna.fbcdn.net/v/t1.15752-9/452835094_1018969663225315_9199216074795106771_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=9f807c&_nc_ohc=K4L3AvNnm2EQ7kNvgEcucF8&_nc_ht=scontent.fhan14-3.fna&oh=03_Q7cD1QHiMY4IsdisnE1ua_ctffi8XoUlPvt7GkXx-xFzDbnlvg&oe=66D2942A" alt="QR Code MBBank " class="qr-code">
+              <img src="https://scontent.fhan19-1.fna.fbcdn.net/v/t1.15752-9/452835094_1018969663225315_9199216074795106771_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=9f807c&_nc_ohc=K4L3AvNnm2EQ7kNvgG3uOZK&_nc_ht=scontent.fhan19-1.fna&oh=03_Q7cD1QFfPWH2rWuXa2lTbYJeFJ4NbKqqI-H2w-99R5yTcQLKhg&oe=66D2CC6A" alt="QR Code MBBank " class="qr-code">
               <p>
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/MoMo_Logo.png" alt="Momo" class="bank-icon">Momo Payment
+                  <img src="https://upload.wikimedia.org/wikipedia/vi/f/fe/MoMo_Logo.png" alt="Momo" class="bank-icon">Momo Payment
               </p>
               <p>Số Tài Khoản: 0562855347 </p>
               <p>Chủ Tài Khoản: LUU NGUYEN NHAT MINH </p>
