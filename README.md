@@ -122,7 +122,7 @@
               </p>
               <p>Số Tài Khoản: 0562855347 </p>
               <p>Chủ Tài Khoản: LUU NGUYEN NHAT MINH </p>
-              <img src="[https://scontent.fhan19-1.fna.fbcdn.net/v/t1.15752-9/452835094_1018969663225315_9199216074795106771_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=9f807c&_nc_ohc=K4L3AvNnm2EQ7kNvgG3uOZK&_nc_ht=scontent.fhan19-1.fna&oh=03_Q7cD1QFfPWH2rWuXa2lTbYJeFJ4NbKqqI-H2w-99R5yTcQLKhg&oe=66D2CC6A](https://scontent.fhan19-1.fna.fbcdn.net/v/t1.15752-9/452835094_1018969663225315_9199216074795106771_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=9f807c&_nc_ohc=K4L3AvNnm2EQ7kNvgG3uOZK&_nc_ht=scontent.fhan19-1.fna&oh=03_Q7cD1QFfPWH2rWuXa2lTbYJeFJ4NbKqqI-H2w-99R5yTcQLKhg&oe=66D2CC6A)" alt="QR Code MBBank " class="qr-code">
+              <img src="(https://scontent.fhan19-1.fna.fbcdn.net/v/t1.15752-9/452835094_1018969663225315_9199216074795106771_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=9f807c&_nc_ohc=K4L3AvNnm2EQ7kNvgG3uOZK&_nc_ht=scontent.fhan19-1.fna&oh=03_Q7cD1QFfPWH2rWuXa2lTbYJeFJ4NbKqqI-H2w-99R5yTcQLKhg&oe=66D2CC6A)" alt="QR Code MBBank " class="qr-code">
               <p>
                   <img src="https://upload.wikimedia.org/wikipedia/vi/f/fe/MoMo_Logo.png" alt="Momo" class="bank-icon">Momo Payment
               </p>
