@@ -81,7 +81,7 @@
               height: 100%;
               pointer-events: none; /* Không cho phép tương tác */
               opacity: 0; /* Bắt đầu với độ mờ 0 */
-              animation: fall 2s forwards; /* Hiệu ứng rơi */
+              animation: fall 4s forwards; /* Tăng thời gian rơi */
           }
           @keyframes fall {
               0% { top: -100px; opacity: 0.8; }
@@ -100,13 +100,14 @@
       </style>
   </head>
   <body>
-      <audio autoplay loop>
-          <source src="https://youtu.be/LOS0-p-VDf0" type="audio/mpeg">
-          Trình duyệt của bạn không hỗ trợ audio.
-      </audio>
+      
       <div class="money">
-          <img src="https://phongvu.vn/cong-nghe/wp-content/uploads/2020/05/Icon-thuong-thuong-phong-vu-9.jpg" alt="Money" style="width: 50px; position: absolute; left: 10%; animation: move 5s infinite;">
-          <img src="https://phongvu.vn/cong-nghe/wp-content/uploads/2020/05/Icon-thuong-thuong-phong-vu-9.jpg" alt="Money" style="width: 50px; position: absolute; right: 10%; animation: move 5s infinite;">
+          <img src="https://phongvu.vn/cong-nghe/wp-content/uploads/2020/05/Icon-thuong-thuong-phong-vu-9.jpg" alt="Money" style="width: 50px; position: absolute; left: 5%; animation: move 5s infinite;">
+          <img src="https://phongvu.vn/cong-nghe/wp-content/uploads/2020/05/Icon-thuong-thuong-phong-vu-9.jpg" alt="Money" style="width: 50px; position: absolute; left: 20%; animation: move 5s infinite;">
+          <img src="https://phongvu.vn/cong-nghe/wp-content/uploads/2020/05/Icon-thuong-thuong-phong-vu-9.jpg" alt="Money" style="width: 50px; position: absolute; left: 35%; animation: move 5s infinite;">
+          <img src="https://phongvu.vn/cong-nghe/wp-content/uploads/2020/05/Icon-thuong-thuong-phong-vu-9.jpg" alt="Money" style="width: 50px; position: absolute; left: 50%; animation: move 5s infinite;">
+          <img src="https://phongvu.vn/cong-nghe/wp-content/uploads/2020/05/Icon-thuong-thuong-phong-vu-9.jpg" alt="Money" style="width: 50px; position: absolute; left: 65%; animation: move 5s infinite;">
+          <img src="https://phongvu.vn/cong-nghe/wp-content/uploads/2020/05/Icon-thuong-thuong-phong-vu-9.jpg" alt="Money" style="width: 50px; position: absolute; left: 80%; animation: move 5s infinite;">
       </div>
       <div class="container">
           <img src="https://scontent.fhan14-1.fna.fbcdn.net/v/t39.30808-6/453183725_1044125787101328_8006280582240292975_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=zio5NO2G4zsQ7kNvgHkDiak&_nc_ht=scontent.fhan14-1.fna&oh=00_AYD3k7rGxo4d-nauYjKIhgfCQuBeMWUvxDEKqSu2qX1tHw&oe=66B0EE43" alt="Profile Picture" class="profile-pic">
@@ -136,7 +137,7 @@
           // Hiệu ứng tiền rơi từ bên trái và bên phải
           const moneyImages = document.querySelectorAll('.money img');    
           moneyImages.forEach((img, index) => {
-              img.style.animationDelay = `${index * 2}s`; // Thay đổi thời gian bắt đầu cho mỗi hình ảnh
+              img.style.animationDelay = `${index * 1.5}s`; // Thay đổi thời gian bắt đầu cho mỗi hình ảnh
           });
       </script>
   </body>
