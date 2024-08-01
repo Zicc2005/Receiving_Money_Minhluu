@@ -95,8 +95,8 @@
         }
 
         .qr-code {
-            width: 150px; /* Điều chỉnh kích thước */
-            height: 150px;
+            width: 100px;
+            height: 100px;
             margin: 10px auto;
             animation: float 3s infinite;
         }
@@ -190,4 +190,4 @@
             </p>
             <p>Số Tài Khoản: 0562855347 </p>
             <p>Chủ Tài Khoản: LUU NGUYEN NHAT MINH </p>
-            <img src="https://scontent.fhan14-5.fna.fbcdn.net/v/t1.15752-9/453297347_3653378608325759_8591539277886646745_n.jpg?_nc_cat
+            <img src="https://scontent.fhan14-5.fna.fbcdn.net/v/t1.15752-9/453297347_3653378608325759_8591539277886646745_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=9f807c&_nc_ohc=Lp_OPC1D-SkQ7kNvgHJ8UvO&_nc_ht=scontent.fhan14-5.fna&oh=03_Q7cD1QH3ew8McVuITpcPBupOn0yUMlY9oNZ
