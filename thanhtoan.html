@@ -10,7 +10,9 @@
             background-color: #1a1a2e;
             color: white;
             text-align: center;
-            overflow: hidden; /* Ẩn thanh cuộn */
+            overflow: auto; /* Hiện thanh cuộn */
+            height: 100vh; /* Chiều cao toàn bộ màn hình */
+            margin: 0; /* Bỏ margin mặc định */
         }
         .container {
             margin: 20px auto;
@@ -19,11 +21,12 @@
             background-color: #162447;
             width: 300px;
             position: relative;
+            overflow: hidden; /* Ẩn phần thừa ra ngoài khung */
         }
         .profile-pic {
             border-radius: 50%;
-            width: 100px;
-            height: 100px;
+            width: 80px; /* Điều chỉnh kích thước để vừa hơn */
+            height: 80px; /* Điều chỉnh kích thước để vừa hơn */
             margin: 0 auto;
         }
         .button {
@@ -64,15 +67,15 @@
         Trình duyệt của bạn không hỗ trợ audio.
     </audio>
     <div class="money">
-        <img src="YOUR_MONEY_IMAGE_URL" alt="Money" style="width: 50px; position: absolute; left: 10%; animation: move 5s infinite;">
-        <img src="YOUR_MONEY_IMAGE_URL" alt="Money" style="width: 50px; position: absolute; right: 10%; animation: move 5s infinite;">
+        <img src="https://example.com/money_image1.png" alt="Money" style="width: 50px; position: absolute; left: 10%; animation: move 5s infinite;">
+        <img src="https://example.com/money_image2.png" alt="Money" style="width: 50px; position: absolute; right: 10%; animation: move 5s infinite;">
     </div>
     <div class="container">
         <img src="https://scontent.fhan14-1.fna.fbcdn.net/v/t39.30808-6/453183725_1044125787101328_8006280582240292975_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=zio5NO2G4zsQ7kNvgHkDiak&_nc_ht=scontent.fhan14-1.fna&oh=00_AYD3k7rGxo4d-nauYjKIhgfCQuBeMWUvxDEKqSu2qX1tHw&oe=66B0EE43" alt="Profile Picture" class="profile-pic">
         <h2>Lưu Nguyễn Nhật Minh </h2>
         <p>Mãi love khách của em :3 </p>
-        <button class="button">Facebook</button>
-        <button class="button">TikTok</button>
+        <button class="button" id="facebookButton">Facebook</button>
+        <button class="button" id="tiktokButton">TikTok</button>
         <div class="payment-info">
             <h3>Thông Tin Thanh Toán</h3>
             <p>MBBANk </p>
@@ -91,6 +94,13 @@
         const moneyImages = document.querySelectorAll('.money img');    
         moneyImages.forEach((img, index) => {
             img.style.animationDelay = `${index * 2}s`; // Thay đổi thời gian bắt đầu cho mỗi hình ảnh
+        });
+
+        // Chức năng cho nút Facebook
+        const facebookButton = document.getElementById('facebookButton');
+        facebookButton.addEventListener('click', function() {
+            window.location.href = 'https://www.facebook.com/ZiCzIc2005';
+            tiktokButton.style.display = 'none'; // Ẩn nút TikTok
         });
     </script>
 </body>
