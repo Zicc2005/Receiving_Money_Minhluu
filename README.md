@@ -64,10 +64,10 @@
               to { transform: scale(1); opacity: 1; }
           }
           .qr-code {
-              width: 100px; /* Kích thước QR code */
-              height: 100px;
-              margin: 10px auto;
-              animation: float 3s infinite; /* Hiệu ứng nổi */
+              width: 120px; /* Kích thước QR code */
+              height: 120px;
+              margin: 15px auto;
+              animation: float 5s infinite; /* Hiệu ứng nổi */
           }
           @keyframes float {
               0%, 100% { transform: translateY(0); }
